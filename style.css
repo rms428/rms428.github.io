@@ -28,16 +28,45 @@ h1 {
 .profile-photo {
   width: 160px;
   height: 160px;
-  border-radius: 50%;
   object-fit: cover;
   display: block;
   margin-bottom: 36px;
+}
+
+nav {
+  margin-bottom: 36px;
+}
+
+nav a {
+  color: #111111;
+  text-decoration: none;
+  font-size: 0.95rem;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 .bio p {
   color: #555555;
   max-width: 480px;
   margin-bottom: 12px;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.project h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.project p {
+  color: #555555;
+  max-width: 480px;
 }
 
 @media (max-width: 480px) {
