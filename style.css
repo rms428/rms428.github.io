@@ -82,6 +82,13 @@ nav a {
 .project p {
   color: #555555;
   max-width: 480px;
+  margin-bottom: 12px;
+}
+
+main > p {
+  color: #555555;
+  max-width: 480px;
+  margin-bottom: 32px;
 }
 
 @media (max-width: 480px) {
